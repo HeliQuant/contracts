@@ -20,3 +20,4 @@ broadcast/
 *.swp
 .DS_Store
 Thumbs.db
+*.log
