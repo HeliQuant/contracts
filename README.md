@@ -1,8 +1,6 @@
 # contracts
 
 > Smart contracts for **[HeliQuant](https://github.com/HeliQuant)** — autonomous multi-source intelligence trading firm on Mantle.
->
-> Submitted to **Mantle Turing Test Hackathon 2026** — Track 1: AI Trading & Strategy.
 
 ## Overview
 

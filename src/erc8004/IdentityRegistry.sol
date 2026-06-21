@@ -8,7 +8,7 @@ import { IIdentityRegistry } from "./IIdentityRegistry.sol";
 /// @title IdentityRegistry — ERC-8004 Identity Registry
 /// @notice ERC-721 based agent identity. Firm tokens are transferable (enables ERC-7857
 ///         transfer of the strategy brain). Sub-agent tokens are soulbound to firm.
-/// @dev Mantle Turing Test Hackathon 2026 — Track 1 AI Trading & Strategy
+/// @dev Part of the HeliQuant autonomous trading firm (AI trading & strategy).
 contract IdentityRegistry is ERC721, IIdentityRegistry {
     uint256 private _nextTokenId;
     mapping(uint256 => Identity) private _identities;

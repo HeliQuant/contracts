@@ -9,8 +9,7 @@ import { IAlloraConsumer } from "./IAlloraConsumer.sol";
 /// @title AlloraConsumer — Mantle deployment of Allora Network's prediction consumer
 /// @notice Receives signed inferences from Allora topic publishers and exposes them
 ///         to any on-chain consumer (Signal Agent, dApps, indexers).
-/// @dev    This is the first Allora consumer deployment on Mantle Network, shipped as
-///         part of the Mantle Turing Test Hackathon 2026 submission. Mantle ekosistem
+/// @dev    This is the first Allora consumer deployment on Mantle Network. Mantle ecosystem
 ///         contribution: extends decentralized AI inference layer to Mantle.
 contract AlloraConsumer is Ownable, EIP712, IAlloraConsumer {
     bytes32 private constant _NETWORK_INFERENCE_DATA_TYPEHASH = keccak256(
